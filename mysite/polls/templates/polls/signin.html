@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'polls/home.css' %}" rel="stylesheet" type="text/css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/css/custom.css" rel="stylesheet" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <title>signin</title>
+</head>
+<body>
+    <nav>
+        <h1 class="header">LIENS MEDIA</h1>
+        <ul>
+            <li class="lft"><a href=" / ">HOME</a></li>
+            <!--
+            <li class="lft"><a href="/signup">register</a></li>
+            <li class="rft"><a href="/signin">login</a></li>
+            -->
+        </ul>
+
+    </nav>
+    {% for message in messages%}
+    <div>{{message}}</div>
+    {% endfor %}
+    <div class="card">
+        <form method="POST" action="/signin">
+            {% csrf_token %}
+            <label for=""username:>Username</label>
+            <input type="text" name="username" placeholder="Enter username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password"  required>
+            <br>
+            <button class="button" type="submit">SIGN IN</button>
+        </form>
+    </div>
+</body>
+</html>

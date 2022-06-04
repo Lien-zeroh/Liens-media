@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(99, 99, 163);
+}
+form{
+    margin-left: 60px;
+}
+nav{
+    border-radius: 4px;
+    height: 70px;
+    background-color: rgb(165, 110, 39);
+    overflow: hidden;
+}
+h3{
+    color: aqua;
+    text-align: center;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+}
+.header{
+    float: right;
+    margin-right: 50px;
+}
+.foot{
+    color: aqua;
+    margin-left: 300px;
+}
+.para{
+    margin: 50px 50px 50px 50px;
+    color: aqua;
+}
+.card{
+    margin-top: 50px;
+    margin-left: 150px;
+    box-shadow: 0 4px 8px 0 rgb(82, 47, 47);
+    transition: 0.5s;
+    width: 70%;
+    height: 90%;
+}
+.card1{
+    margin-left: 150px;
+    box-shadow: 0 4px 8px 0 rgb(82, 47, 47);
+    transition: 0.5s;
+    width: 70%;
+    height: 90%;
+}
+.card2{
+    margin-left: 150px;
+    box-shadow: 0 4px 8px 0 rgb(82, 47, 47);
+    transition: 0.5s;
+    width: 70%;
+    height: 90%;
+}
+.card3{
+    margin-left: 150px;
+    box-shadow: 0 4px 8px 0 rgb(82, 47, 47);
+    transition: 0.5s;
+    width: 70%;
+    height: 90%;
+}
+input{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 4px;
+    background-color: aqua;
+}
+.button{
+    margin-left: 280px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    border: 3px solid blue;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+}
+button{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    border: 3px solid blue;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li .lft{
+    float: left;
+}
+li .rft{
+    float: right;
+}
+li a{
+    display: inline;
+    color: aqua;
+    padding: 40px 60px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+li a :hover {
+    background-color: blueviolet;
+}

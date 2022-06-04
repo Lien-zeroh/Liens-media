@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'polls/home.css' %}" rel="stylesheet" type="text/css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/css/custom.css" rel="stylesheet" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <title>home</title>
+</head>
+<body>
+    <nav>
+        <h1 class="header">LIENS MEDIA</h1>
+        <ul>
+            <li class="lft"><a href="/home">HOME</a></li>
+            <!--
+            <li class="lft"><a href="/signup">register</a></li>
+            <li class="rft"><a href="/signin">login</a></li>
+            -->
+        </ul>
+
+    </nav>
+    <div>
+        <h1 class="card1"><u>LIENS MEDIA GROUP </u></h1>
+    </div>
+    <br>
+    <div class="card">
+        <p class="para">
+            YOU ARE AT THE HOMEPAGE OF OUR WEBSITE
+            <br>
+            CLICK ON SIGNUP TO CREATE AN ACCOUNT AND LOGIN
+            <br>
+                         OR
+            <br>
+            CLICK ON SIGNIN IF YOU ALREADY HAVE AN ACCOUNT
+        </p>
+    </div>
+    <div class="card">
+        <button type="submit"><a href=" /signup ">SIGN UP</a></button>
+        <button type="submit"><a href=" /signin">SIGN IN</a></button>
+
+    </div>
+    <div>
+        <br>
+        <p><a class="foot" href="#">Terms and conditions</a></p>
+        <br>
+        <p><a class="foot" href="#">forgot password?</a></p>
+    </div>
+</body>
+</html>
